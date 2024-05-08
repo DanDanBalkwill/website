@@ -3,9 +3,55 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  color: #FFFFFF;
+  background-color: #4B4C69;
+  position: relative;
+}
+
+.sidebar{
+  background-color: #3F4163;
+  overflow-y: scroll;
+  height: 100vh;
+  width: 225px;
+  position: fixed;
+  box-sizing: border-box;
+}
+
+.parallax-container {
+  position: relative;
+  height: 100vh;
+  overflow: scroll;
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-left: 225px;
+  text-align: justify;
+}
+
+.parallax-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* Add specific styling for each layer */
+}
+
+#contact{
+  background-color: #4B4C69;
+  ;
 }
 
 nav{
     font-weight: 200;
     font-size: medium;
+}
+#about-content{
+  transform: translateY(0%);
+}
+#experience-content{
+  transform: translateY(99vh);
+}
+#projects-content{
+  transform: translateY(225vh);
 }
