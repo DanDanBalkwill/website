@@ -4,7 +4,9 @@
   font-weight: 400;
   font-style: normal;
   color: #FFFFFF;
-  background-color: #4B4C69;
+  /* background-color: #4B4C69; */
+  background: rgb(75,76,105);
+  background: linear-gradient(270deg, rgba(75,76,105,1) 0%, rgba(55,57,82,1) 50%, rgba(53,54,77,1) 100%);
   position: relative;
   text-align: center;
 }
@@ -20,7 +22,7 @@
   
 }
 .sidebar{
-  background-color: #3F4163;
+  /* background-color: #3F4163; */
   overflow-y: scroll;
   height: 100vh;
   width: 250px;
