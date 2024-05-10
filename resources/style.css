@@ -60,7 +60,7 @@ table {
 }
 @media only screen and (max-width: 600px) {
   .sidebar{
-    
+    position:relative;
   }
 }
 #headshot{
@@ -117,7 +117,7 @@ a:active {
 .parallax-container {
   position: relative;
   height: 100vh;
-  overflow: scroll;
+  overflow:visible;
   flex: 1;
   padding: 20px;
   box-sizing: border-box;
