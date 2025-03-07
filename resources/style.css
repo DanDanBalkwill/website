@@ -51,11 +51,11 @@ table {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  color: #FFFFFF;
+  color: #febf5f;
   /* background-color: #4B4C69; */
   /* background: rgb(75,76,105);
   background: linear-gradient(270deg, rgba(75,76,105,1) 0%, rgba(55,57,82,1) 50%, rgba(53,54,77,1) 100%); */
-  background-color: #9c27b0  ;
+  background-color: #673AB7  ;
   position: relative;
   text-align: center;
 }
@@ -136,7 +136,7 @@ a:active {
 }
 
 #contact{
-  background-color: #4B4C69;
+  background-color: #512da8;
   height:fit-content;
   max-width: 224px;
   margin-left: 12px;
